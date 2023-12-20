@@ -1452,7 +1452,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('‹ Bᴀᴄᴋ', 'about')
         ]]
         await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.SOURCE_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons)
-        )       
+        )
+    elif query.data == "admin":
+        buttons = [[
+            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', 'close_data'),
+            InlineKeyboardButton('« Bᴀᴄᴋ', 'help')           
+        ]]
+        if query.from_user.id not in ADMINS:
+            return await query.answer("Sᴏʀʀʏ Tʜɪs Mᴇɴᴜ Oɴʟʏ Fᴏʀ Mʏ Aᴅᴍɪɴs ⚒️", show_alert=True)
+                await await query.edit_message_media(InputMediaPhoto(random.choice(PICS), script.ADMIN_TXT, enums.ParseMode.HTML), reply_markup=InlineKeyboardMarkup(buttons)
+        )
     elif query.data == "button":
         buttons = [[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='manuelfilter')
@@ -1572,7 +1581,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='admin')
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
