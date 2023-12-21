@@ -1344,7 +1344,9 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ],[
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about') 
-                  ]]       
+                ],[
+                    InlineKeyboardButton('⚙️ Support ⚙️', callback_data='support')            
+                ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1407,6 +1409,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
          ], [           
             InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅᴇ', callback_data='extmod'), 
             InlineKeyboardButton('Bᴏᴛ Sᴛᴀᴛᴜꜱ ❄️', callback_data='stats')
+         ], [
+            InlineKeyboardButton('Rules', callback_data='rules')            
          ], [ 
              InlineKeyboardButton('✘ Cʟᴏꜱᴇ', callback_data='close_data'), 
              InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start')
@@ -1422,9 +1426,33 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+         elif query.data == "support":
+        buttons = [[
+            InlineKeyboardButton('⚙️ Main Channel ⚙️', url='https://t.me/Tr_LinksZz')            
+         ], [
+             InlineKeyboardButton('Movie Group', url='https://t.me/Discussion_tr_links'),   
+             InlineKeyboardButton('Movies Update', url='https://t.me/Tamizhal_Movies_Factory') 
+         ], [ 
+             InlineKeyboardButton('Movie Group', url='https://t.me/Tr_Movies_Request_Factory'), 
+             InlineKeyboardButton('Updates', url='https://t.me/Tr_LinksZz') 
+         ], [ 
+             InlineKeyboardButton('✘ Cʟᴏꜱᴇ', callback_data='close_data'), 
+             InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.SUPPORT_TXT.
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+       )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Rules', callback_data='rules'),
+            InlineKeyboardButton('Cʀᴇᴅɪᴛs 😇', callback_data='credits'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
         ],[
              InlineKeyboardButton('🛰 ʀᴇɴᴅᴇʀɪɴɢ ɪɴꜰᴏ ☁️', callback_data='rendering_info')
@@ -1604,6 +1632,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=script.RULES_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+     elif query.data == "credits":
+        buttons = [[
+            InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='help')
+        ]]
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.CREDITS_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
