@@ -1345,7 +1345,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('👻 Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('👾 Aʙᴏᴜᴛ', callback_data='about') 
                 ],[
-                    InlineKeyboardButton('⚙️ Support ⚙️', callback_data='support')            
+                    InlineKeyboardButton('⚙️ Support ⚙️', callback_data='supporting')            
                 ]]       
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1426,7 +1426,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-         elif query.data == "support":
+         elif query.data == "supporting":
         buttons = [[
             InlineKeyboardButton('⚙️ Main Channel ⚙️', url='https://t.me/Tr_LinksZz')            
          ], [
@@ -1446,7 +1446,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InputMediaPhoto(random.choice(PICS))
         )
         await query.message.edit_text(
-            text=script.SUPPORT_TXT.
+            text=script.SUPPORTING_TXT.
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
        )
