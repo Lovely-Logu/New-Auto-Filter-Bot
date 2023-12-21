@@ -1426,33 +1426,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-      elif query.data == "suprt":
-    buttons = [
-        [
-            InlineKeyboardButton('⚙️ Main Channel ⚙️', url='https://t.me/Tr_LinksZz')            
-        ], [
-            InlineKeyboardButton('Movie Group', url='https://t.me/Discussion_tr_links'),   
-            InlineKeyboardButton('Movies Update', url='https://t.me/Tamizhal_Movies_Factory') 
-        ], [ 
-            InlineKeyboardButton('Movie Group', url='https://t.me/Tr_Movies_Request_Factory'), 
-            InlineKeyboardButton('Updates', url='https://t.me/Tr_LinksZz') 
-        ], [ 
-            InlineKeyboardButton('✘ Cʟᴏꜱᴇ', callback_data='close_data'), 
-            InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start')
-        ]
-    ]
-    reply_markup = InlineKeyboardMarkup(buttons)
-    await client.edit_message_media(
-        query.message.chat.id, 
-        query.message.id, 
-        InputMediaPhoto(random.choice(PICS))
-    )
-    await query.message.edit_text(
-        text=script.SUPRT_TXT,
-        reply_markup=reply_markup,
-        parse_mode=enums.ParseMode.HTML
-    )
-
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Cʀᴇᴅɪᴛs 😇', callback_data='credits'),
