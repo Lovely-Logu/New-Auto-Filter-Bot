@@ -146,7 +146,7 @@ my features Stay here new features coming soon...
 
 ❤️ Powered By : @Tr_LinksZz ❤️</b>"""
 
-    SUPRT_TXT = """<b> Join Our My Official Channel's & Group's. </b>"""
+    EXTRA_TXT = """<b> Join Our My Official Channel's & Group's. </b>"""
 
     CREDITS_TXT = """<b> My Owner Add Soon, Bot & Channel Maintains Work Admin Also busy Add Soon </b>"""
     
