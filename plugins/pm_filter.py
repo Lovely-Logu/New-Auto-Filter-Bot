@@ -1459,14 +1459,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "suprt_info":
         buttons = [[
-            InlineKeyboardButton('⚙️ Main Channel ⚙️', url='https://t.me/Tr_LinksZz')            
-        ], [
-            InlineKeyboardButton('Movie Group', url='https://t.me/Discussion_tr_links'),   
-            InlineKeyboardButton('Movies Update', url='https://t.me/Tamizhal_Movies_Factory') 
-        ], [ 
+            InlineKeyboardButton('Main Channel', url='https://t.me/Tr_LinksZz')
+        ],[
+            InlineKeyboardButton('Support Group', url='https://t.me/Discussion_tr_links'),
+            InlineKeyboardButton('Movie Update', url='https://t.me/Tamizhal_Movies_Factory')
+        ],[
             InlineKeyboardButton('Movie Group', url='https://t.me/Tr_Movies_Request_Factory'),
-            InlineKeyboardButton('Updates', url='https://t.me/Tr_LinksZz') 
-        ], [
+            InlineKeyboardButton('Update', url='https://t.me/Tr_LinksZz')
+        ],[
             InlineKeyboardButton('⟸ Bᴀᴄᴋ', callback_data='start')
         ]]
         await client.edit_message_media(
