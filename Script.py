@@ -1,30 +1,37 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ
+    START_TXT = """<b>👋 ʜᴇʟᴏ {user}.
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+😇 ᴍʏ ɴᴀᴍᴇ ɪs  {bot}.
+ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴇᴅ ᴍᴏᴠɪᴇs & ᴡᴇʙsᴇʀɪᴇs & ᴄᴀʀᴛᴏᴏɴᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... 🔥
+
+❤️ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  : @Tr_LinksZz ❤️</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+❤️ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  : @Tr_LinksZz ❤️</b>"""
  
-    ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TG_autofilter_bot>TG_autofilter_bot</a>
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TG_UPDATES1'>UPDATES</a> 
- ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
- ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
- ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>RENDER</a> 
- ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
+    ABOUT_TXT = """<b>✪ [ Mʏ Dᴇᴛᴀɪʟs ] ✪
 
-    SOURCE_TXT = """
-<b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
+✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamizhan_movie_bot>{bot}</a>
+✯ ᴏᴡɴᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
+✯ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ ʟɪʙʀᴀʀʏ : <a href=https://docs.pyrogram.org/>ᴘʀᴏɢʀᴀᴍ</a>
+✯ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org/download/releases/3.0/>ᴘʏᴛʜᴏɴ 3</a>
+✯ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ : <a href=https://www.mongodb.com/>ᴍᴏɴɢᴏ ᴅʙ</a>
+✯ ᴍʏ sᴇʀᴠᴇʀ : <a href=https://render.com/>ʀᴇɴᴅᴇʀ</a>
+✯ ᴍʏ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : 𝚅2.7.2 [ sᴛᴀʙʟᴇ ]
 
-Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
+❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""
 
-Fork our repository and give star ⭐- <a href='https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
-"""
+    SOURCE_TXT = """<b>🗒️ ɴᴏᴛᴇs :
+
+➠ ᴘʀᴏᴊᴇᴄᴛ ᴘʀᴏᴠᴇᴅᴇʀ : <a href=https://t.me/Tr_LinksZz>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+
+➠ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : <a href=https://t.me/Discussion_tr_links>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+
+➠ sᴏᴜʀᴄᴇ - ᴄʟɪᴄᴋ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ʙᴜᴛᴛᴏɴ</b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -73,8 +80,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
-my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KUSHALHK>OWNER</a></b>
+my features Stay here new features coming soon...
   
  <b>✯ Join here : <a href=https://t.me/TG_UPDATES1>Join my updateds</a></b> 
   
@@ -148,28 +154,30 @@ my features Stay here new features coming soon...
 
     SUPRT_INFO_TXT = """<b> Join Our My Official Channel's & Group's. </b>"""
 
-    CREDITS_TXT = """<b>          ᕯ❉   [  Cʀᴇᴅɪᴛꜱ  ]   ❉ᕯ
+    CREDITS_TXT = """<b>ᕯ❉   [  Cʀᴇᴅɪᴛꜱ  ]   ❉ᕯ
 
-➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/TG_Botz>TG BOTS</a>
-➳ Tʜᴀɴᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ  : <a href=https://t.me/KUSHALHK>ᴋᴜsʜᴀʟ</a> 
+➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/TG_Botz>ᴛɢ ʙᴏᴛᴢ</a>
+➳ Tʜᴀɴᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ  : <a href=https://t.me/KUSHALHK>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 
 ➳ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
-➳ Bᴏᴛ Is Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ Tʜɪs : <a href=https://t.me/Tr_LinksZz>ᴛʀ ᴍᴏᴠɪᴇs™</a>
-➳ Fᴇᴀᴛᴜʀᴇ Aᴅᴅᴇᴅ Bʏ : <a href=https://t.me/H21TG>Hᴀʀɪᴘʀᴀsᴀᴅ TG</a>
-➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/mallufiles>ᴍᴀʟʟᴜ ғɪʟᴍ™</a>
+➳ Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz>ᴛʀ ᴍᴏᴠɪᴇs™</a>
+➳ Fᴇᴀᴛᴜʀᴇ Aᴅᴅᴇᴅ Bʏ : <a href=https://t.me/mallufiles><b>𝖬𝖺𝗅𝗅𝗎𝖥𝗂𝗅𝖾𝗌™</b></a>
 
-          ✦ l ꙰   [ Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ ]   l ꙰✦
+✦ l ꙰   [ Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ ]   l ꙰✦
 
 ➳ Mᴀɪɴʟʏ Eᴅɪᴛᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
-➳ Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ : <a href=https://t.me/H21TG>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 ➳ Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ : <a href=https://t.me/mallufiles>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
-★  [ <a href=https://t.me/H21TG>Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ</a> ]  ★</b>"""
+★  [ <a href=https://t.me/H21TG>Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ</a> ]  ★</b>"""
     
-    STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
-★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
-★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
-★ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{}</code>
-★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
+    STATUS_TXT = """<b>⍟────[ ʙᴏᴛ ᴅʙ sᴛᴀᴛᴜ𝗌 ]────⍟
+
+◉ ᴛᴏᴛᴀʟ ꜰɪʟᴇꜱ : <code>{}</code>
+◉ ᴛᴏᴛᴀʟ ᴜꜱᴇʀꜱ : <code>{}</code>  
+◉ ᴛᴏᴛᴀʟ ᴄʜᴀᴛꜱ : <code>{}</code>
+◉ ᴜꜱᴇᴅ ᴅʙ ꜱɪᴢᴇ : <code>{}</code>
+◉ ꜰʀᴇᴇ ᴅʙ ꜱɪᴢᴇ : <code>{}</code>
+
+•❅─────✧❅✦❅✧─────❅•</b>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
@@ -266,11 +274,13 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """ 
-<b>══════════════════
-🗂 {file_name}
-═════════════════════ 
-𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @TG_LINKS_CHANNEL1</b>"""
+    CAPTION = """<b>𝑯𝒆𝒚 {mention}👋
+
+{file_name}
+
+🔘 size - {file_size}
+
+❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -285,7 +295,9 @@ IMDb Data:
 📀 RunTime: {runtime} Minutes
 📆 Release Info : {release_date}
 🎛 Countries : <code>{countries}</code>
-⏰ Result Shown in: {remaining_seconds} 
+⏰ Result Shown in: {remaining_seconds}
+📥 ᴜᴘʟᴏᴀᴅɪɴɢ : @Tr_LinksZz
+🗣️ ᴅɪsᴄᴜssɪᴏɴ : @Discussion_tr_links
 
 💁‍♂️ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲 : {message.from_user.mention}</b>"""
     
