@@ -1260,7 +1260,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Exᴛʀᴀ Mᴏᴅᴇ', callback_data='extmod'), 
             InlineKeyboardButton('Bᴏᴛ Sᴛᴀᴛᴜꜱ ❄️', callback_data='stats')
          ], [
-            InlineKeyboardButton('Rules', callback_data='rules')            
+            InlineKeyboardButton('ᗒ● Gʀᴏᴜᴘ Rᴜʟᴇs ●ᗕ', callback_data='rules')            
          ], [ 
              InlineKeyboardButton('✘ Cʟᴏꜱᴇ', callback_data='close_data'), 
              InlineKeyboardButton('« Bᴀᴄᴋ', callback_data='start')
@@ -1341,8 +1341,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     )
     elif query.data == "admin":
         buttons = [[
-            InlineKeyboardButton('♛┈⛧┈┈•𝐁𝐀𝐂𝐊•┈┈⛧┈♛', callback_data='help'),
-            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data'),
+            InlineKeyboardButton('< Bᴀᴄᴋ', callback_data='help')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1631,7 +1631,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "dics_btn":
         buttons = [[
-            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='help')
+            InlineKeyboardButton('⇍ ʙᴀᴄᴋ ⇏', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
