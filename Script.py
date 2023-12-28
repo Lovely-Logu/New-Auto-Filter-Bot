@@ -12,7 +12,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
  
     ABOUT_TXT = """<b>✪ [ Mʏ Dᴇᴛᴀɪʟs ] ✪
 
-✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
+✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamizhan_movie_bot>🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a>
 ✯ ᴏᴡɴᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ✯ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
