@@ -114,7 +114,7 @@ async def next_page(bot, query):
         return
     temp.GETALL[key] = files
     temp.SHORT[query.from_user.id] = query.message.chat.id
-    total_results_str = str(total_results)
+    total_results_str = str(total)
     settings = await get_settings(query.message.chat.id)
     pre = 'filep' if settings['file_secure'] else 'file'
     if settings['button']:
