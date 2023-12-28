@@ -1,8 +1,7 @@
 class script(object):
-    START_TXT = """<b>👋 ʜᴇʟᴏ {user}.
+    START_TXT = """<b>👋 ʜᴇʟᴏ {},
 
-😇 ᴍʏ ɴᴀᴍᴇ ɪs  {bot}.
-ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴇᴅ ᴍᴏᴠɪᴇs & ᴡᴇʙsᴇʀɪᴇs & ᴄᴀʀᴛᴏᴏɴᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... 🔥
+😇 ᴍʏ ɴᴀᴍᴇ ɪs <a href=https://t.me/{}>{}</a>, ɪ ᴄᴀɴ ᴘʀᴏᴠɪᴇᴅ ᴍᴏᴠɪᴇs & ᴡᴇʙsᴇʀɪᴇs & ᴄᴀʀᴛᴏᴏɴᴇs, ᴊᴜsᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ... 🔥
 
 ❤️ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ  : @Tr_LinksZz ❤️</b>"""
 
@@ -13,7 +12,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
  
     ABOUT_TXT = """<b>✪ [ Mʏ Dᴇᴛᴀɪʟs ] ✪
 
-✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/Tamizhan_movie_bot>{bot}</a>
+✯ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ✯ ᴏᴡɴᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ : <a href=tg://settings>ᴛʜɪs ᴘᴇʀsᴏɴ</a>
 ✯ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
