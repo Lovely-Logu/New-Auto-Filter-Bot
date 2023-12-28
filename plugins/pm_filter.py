@@ -211,6 +211,9 @@ async def next_page(bot, query):
         else:
             btn.append(
                 [
+                    InlineKeyboardButton('How To Download',url='https://t.me/how_Download_Tr/9')
+                ],
+                [
                     InlineKeyboardButton("⌫ 𝐁𝐀𝐂𝐊", callback_data=f"next_{req}_{key}_{off_set}"),
                     InlineKeyboardButton(f"{math.ceil(int(offset)/10)+1} / {math.ceil(total/10)}", callback_data="pages"),
                     InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
@@ -233,7 +236,8 @@ async def next_page(bot, query):
         except MessageNotModified:
             pass
     await query.answer()
-    
+
+
 @Client.on_callback_query(filters.regex(r"^spol"))
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
