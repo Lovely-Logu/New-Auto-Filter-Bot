@@ -142,13 +142,28 @@ my features Stay here new features coming soon...
 
 🪄 ɴᴏᴛᴇ :- 𝖠ʟʟ ᴍᴇ𝗌𝗌ᴀɢᴇ𝗌 ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 5 ᴍɪɴᴜᴛᴇ𝗌 ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪ𝗌𝗌ᴜᴇ𝗌.⚡
 
-🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ - ᴄʟɪᴄᴋ ʜᴇʀᴇ 🦋
+🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ ☞ <a href=tg://settings>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 🦋
 
 ❤️ Powered By : @Tr_LinksZz ❤️</b>"""
 
     SUPRT_INFO_TXT = """<b> Join Our My Official Channel's & Group's. </b>"""
 
-    CREDITS_TXT = """<b> My Owner Add Soon, Bot & Channel Maintains Work Admin Also busy Add Soon </b>"""
+    CREDITS_TXT = """<b>          ᕯ❉   [  Cʀᴇᴅɪᴛꜱ  ]   ❉ᕯ
+
+➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/TG_Botz>TG BOTS</a>
+➳ Tʜᴀɴᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ  : <a href=https://t.me/KUSHALHK>ᴋᴜsʜᴀʟ</a> 
+➳ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+➳ Bᴏᴛ Is Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ Tʜɪs : <a href=https://t.me/Tr_LinksZz>ᴛʀ ᴍᴏᴠɪᴇs™</a>
+➳ Fᴇᴀᴛᴜʀᴇ Aᴅᴅᴇᴅ Bʏ : <a href=https://t.me/H21TG>Hᴀʀɪᴘʀᴀsᴀᴅ TG</a>
+➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/mallufiles>ᴍᴀʟʟᴜ ғɪʟᴍ™</a>
+
+          ✦ l ꙰   [ Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ ]   l ꙰✦
+
+➳ Mᴀɪɴʟʏ Eᴅɪᴛᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+➳ Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ : <a href=https://t.me/H21TG>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+➳ Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ : <a href=https://t.me/mallufiles>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+
+★  [ <a href=https://t.me/H21TG>Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ</a> ]  ★</b>"""
     
     STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
