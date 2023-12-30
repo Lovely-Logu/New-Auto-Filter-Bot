@@ -271,13 +271,16 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>𝑯𝒆𝒚 {mention}👋
-
+    CAPTION = """<b>
 {file_name}
 
-🔘 size - {file_size}
-
 ❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""
+
+DEPLOY_TXT : """<b>Tr Movies Network Deployed, This Project Open Source project.</b>"""
+
+
+OWNER_INFO_TXT : """<b>Tr movies Network Official Owner And Movies Developer Delvelped This Project Tr Movies Network Official Owner & Bot Developer Contact 👇 Cilck Developer Button.</b>"""
+    
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
@@ -297,7 +300,7 @@ IMDb Data:
 🗣️ ᴅɪsᴄᴜssɪᴏɴ : @Discussion_tr_links
 
 💁‍♂️ 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐁𝐲 : {message.from_user.mention}</b>"""
-    
+   
     ALL_FILTERS = """
 <b>Hᴇʏ {}, Tʜᴇsᴇ ᴀʀᴇ ᴍʏ ᴛʜʀᴇᴇ ᴛʏᴘᴇs ᴏғ ғɪʟᴛᴇʀs.</b>"""
     
