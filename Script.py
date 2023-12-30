@@ -278,11 +278,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 DEPLOY_TXT : """<b>Tr Movies Network Deployed, This Project Open Source project.</b>"""
 
-
 OWNER_INFO_TXT : """<b>Tr movies Network Official Owner And Movies Developer Delvelped This Project Tr Movies Network Official Owner & Bot Developer Contact 👇 Cilck Developer Button.</b>"""
     
-    
-    IMDB_TEMPLATE_TXT = """
+IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
 
 IMDb Data:
