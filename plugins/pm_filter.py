@@ -1422,6 +1422,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝖤𝗑𝗍𝗋𝖺 𝖬𝗈𝖽𝖾', callback_data='extmod'), 
             InlineKeyboardButton('❀ 𝖡𝗈𝗍 𝖲𝗍𝖺𝗍𝗎𝗌 ❀', callback_data='stats')
          ], [
+            InlineKeyboardButton('Extra Features ', callback_data='stats'),
             InlineKeyboardButton('✦ 𝖦𝗋𝗈𝗎𝗉 𝖱𝗎𝗅𝖾𝗌 ✦', callback_data='rules')            
          ], [ 
              InlineKeyboardButton('✘ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data'), 
@@ -1680,7 +1681,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
     
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='admin')
+            InlineKeyboardButton('JSON', callback_data=''),
+            InlineKeyboardButton('PINGS', callback_data=''),
+            InlineKeyboardButton('PURGE', callback_data='')
+        ],[
+            InlineKeyboardButton('SHARE', callback_data='share'),
+            InlineKeyboardButton('PIN_TXT', callback_data=''),
+            InlineKeyboardButton('GEN_PASS', callback_data=''),
+        ],[
+            InlineKeyboardButton('', callback_data=''),
+            InlineKeyboardButton('SHORTLINK_INFO', callback_data='shortlink_info'),
+            InlineKeyboardButton('PAID', callback_data='paid'),
+        ],[
+            InlineKeyboardButton('URLSHORT', callback_data=''),
+            InlineKeyboardButton('STICKER', callback_data='sticker'),
+            InlineKeyboardButton('WHOIS', callback_data=''),
+        ],[
+            InlineKeyboardButton('GTRANS', callback_data=''),
+            InlineKeyboardButton('CORONA', callback_data=''),
+            InlineKeyboardButton('ABOOK_TXT', callback_data=''),
+        ],[
+            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
         await client.edit_message_media(
             query.message.chat.id, 
@@ -1874,9 +1895,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
 )
     elif query.data == "sticker":
             btn = [[
-                    InlineKeyboardButton("⟸ Bᴀᴄᴋ", callback_data="help"),
-                    InlineKeyboardButton("Cᴏɴᴛᴀᴄᴛ", url="telegram.me/KUSHALHK")
-                  ]]
+                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra"),
+                   ]]
             await client.edit_message_media(
                 query.message.chat.id, 
                 query.message.id, 
@@ -1885,6 +1905,36 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
                 text=(script.STICKER_TXT),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+    elif query.data == "":
+            btn = [[
+                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
+             ]]
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+            )
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script. text name),
+                reply_markup=reply_markup,
+                parse_mode=enums.ParseMode.HTML
+            )
+    elif query.data == "":
+            btn = [[
+                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
+             ]]
+            await client.edit_message_media(
+                query.message.chat.id, 
+                query.message.id, 
+                InputMediaPhoto(random.choice(PICS))
+            )
+            reply_markup = InlineKeyboardMarkup(btn)
+            await query.message.edit_text(
+                text=(script. text name),
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
