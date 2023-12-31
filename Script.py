@@ -276,9 +276,7 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 ❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""
     
-  EXTRA_INFO_TXT : """<b>My Extra Features.
-    
-  ❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""    
+  EXTRA_INFO_TXT : """<b>My Extra Features</b>"""    
 
 DEPLOY_TXT : """<b>Tr Movies Network Deployed, This Project Open Source project.</b>"""
 
