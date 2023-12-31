@@ -1678,46 +1678,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    
-    elif query.data == "extra":
-        buttons = [[
-            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json_info'),
-            InlineKeyboardButton('𝖯𝗂𝗇𝗀𝗌', callback_data='pings_info'),
-            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge_info')
-        ],[
-            InlineKeyboardButton('𝖲𝗁𝖺𝗋𝖾', callback_data='share_info'),
-            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin_info'),
-            InlineKeyboardButton('𝖦𝖾𝗇 𝖯𝖺𝗌𝗌', callback_data='gen_pass_info')
-        ],[
-            InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song_info'),
-            InlineKeyboardButton('𝖵𝗂𝖽𝖾𝗈', callback_data='video_info'),
-            InlineKeyboardButton('𝖣𝖾𝗉𝗅𝗈𝗒', callback_data='deploy_info')
-        ],[
-            InlineKeyboardButton('𝖮𝗐𝗇𝖾𝗋', callback_data='owner_info'),
-            InlineKeyboardButton('𝖤𝖺𝗋𝗇 𝖬𝗈𝗇𝖾𝗒', callback_data='shortlink_info'),
-            InlineKeyboardButton('𝖯𝗋𝗂𝗆𝖾', callback_data='paid_info')
-        ],[
-            InlineKeyboardButton('𝖴𝗋𝗅𝗌𝗁𝗈𝗋𝗍', callback_data='urlshort_info'),
-            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋', callback_data='sticker_info'),
-            InlineKeyboardButton('𝖶𝗁𝗈𝗂𝗌', callback_data='whois_info')
-        ],[
-            InlineKeyboardButton('𝖦𝗍𝗋𝖺𝗇𝗌', callback_data='gtrans_info'),
-            InlineKeyboardButton('𝖢𝗈𝗋𝖺𝗇𝖺', callback_data='corona_info'),
-            InlineKeyboardButton('𝖠𝖻𝗈𝗈𝗄', callback_data='abook_info')
-        ],[
-            InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help')
-        ]]
-        reply_markup = InlineKeyboardMarkup(buttons)
-        await client.edit_message_media(
-            query.message.chat.id, 
-            query.message.id, 
-            InputMediaPhoto(random.choice(PICS))
-        )
-        await query.message.edit_text(
-            text=script.EXTFTR_TXT.format(query.from_user.mention),
-            reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )
     elif query.data == "stats":
         buttons = [[
             InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help'),
