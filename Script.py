@@ -275,6 +275,10 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 {file_name}
 
 ❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""
+    
+  EXTRA_INFO_TXT : """<b>My Extra Features.
+    
+  ❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""    
 
 DEPLOY_TXT : """<b>Tr Movies Network Deployed, This Project Open Source project.</b>"""
 
