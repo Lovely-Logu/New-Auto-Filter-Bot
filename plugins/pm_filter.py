@@ -1486,29 +1486,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "extra":
         buttons = [[
-            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json_info'),
-            InlineKeyboardButton('𝖯𝗂𝗇𝗀𝗌', callback_data='pings_info'),
-            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge_info')
+            InlineKeyboardButton('𝖩𝗌𝗈𝗇', callback_data='json'),
+            InlineKeyboardButton('𝖯𝗂𝗇𝗀𝗌', callback_data='pings'),
+            InlineKeyboardButton('𝖯𝗎𝗋𝗀𝖾', callback_data='purge')
         ],[
             InlineKeyboardButton('𝖲𝗁𝖺𝗋𝖾', callback_data='share_info'),
-            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin_info'),
-            InlineKeyboardButton('𝖦𝖾𝗇 𝖯𝖺𝗌𝗌', callback_data='gen_pass_info')
+            InlineKeyboardButton('𝖯𝗂𝗇', callback_data='pin'),
+            InlineKeyboardButton('𝖦𝖾𝗇 𝖯𝖺𝗌𝗌', callback_data='gen_pass')
         ],[
-            InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song_info'),
-            InlineKeyboardButton('𝖵𝗂𝖽𝖾𝗈', callback_data='video_info'),
-            InlineKeyboardButton('𝖣𝖾𝗉𝗅𝗈𝗒', callback_data='deploy_info')
+            InlineKeyboardButton('𝖲𝗈𝗇𝗀', callback_data='song'),
+            InlineKeyboardButton('𝖵𝗂𝖽𝖾𝗈', callback_data='video'),
+            InlineKeyboardButton('𝖣𝖾𝗉𝗅𝗈𝗒', callback_data='dpy')
         ],[
-            InlineKeyboardButton('𝖮𝗐𝗇𝖾𝗋', callback_data='owner_info'),
+            InlineKeyboardButton('𝖮𝗐𝗇𝖾𝗋', callback_data='owin'),
             InlineKeyboardButton('𝖤𝖺𝗋𝗇 𝖬𝗈𝗇𝖾𝗒', callback_data='shortlink_info'),
             InlineKeyboardButton('𝖯𝗋𝗂𝗆𝖾', callback_data='paid_info')
         ],[
-            InlineKeyboardButton('𝖴𝗋𝗅𝗌𝗁𝗈𝗋𝗍', callback_data='urlshort_info'),
-            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋', callback_data='sticker_info'),
+            InlineKeyboardButton('𝖴𝗋𝗅𝗌𝗁𝗈𝗋𝗍', callback_data='urlshort'),
+            InlineKeyboardButton('𝖲𝗍𝗂𝖼𝗄𝖾𝗋', callback_data='sticker'),
             InlineKeyboardButton('𝖶𝗁𝗈𝗂𝗌', callback_data='whois_info')
         ],[
-            InlineKeyboardButton('𝖦𝗍𝗋𝖺𝗇𝗌', callback_data='gtrans_info'),
-            InlineKeyboardButton('𝖢𝗈𝗋𝖺𝗇𝖺', callback_data='corona_info'),
-            InlineKeyboardButton('𝖠𝖻𝗈𝗈𝗄', callback_data='abook_info')
+            InlineKeyboardButton('𝖦𝗍𝗋𝖺𝗇𝗌', callback_data='gtrans'),
+            InlineKeyboardButton('𝖢𝗈𝗋𝖺𝗇𝖺', callback_data='corona'),
+            InlineKeyboardButton('𝖠𝖻𝗈𝗈𝗄', callback_data='abook')
         ],[
             InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
@@ -1601,7 +1601,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "json_info":
+    elif query.data == "json":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1616,7 +1616,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
          )
-    elif query.data == "pings_info":
+    elif query.data == "pings":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1631,7 +1631,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "purge_info":
+    elif query.data == "purge":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1648,7 +1648,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "share_info":
+    elif query.data == "share":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra"),
                   ]]
@@ -1663,7 +1663,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "pin_info":
+    elif query.data == "pin":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1678,7 +1678,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "gen_pass_info":
+    elif query.data == "gen_pass":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1693,7 +1693,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "song_info":
+    elif query.data == "song":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
                   ]]
@@ -1708,7 +1708,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "video_info":
+    elif query.data == "video":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
                   ]]
@@ -1723,7 +1723,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "deploy_info":
+    elif query.data == "dpy":
             btn = [[
                     InlineKeyboardButton("✫ 𝖣𝖾𝗉𝗅𝗈𝗒", url='https://t.me/Tr_LinksZz'),
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
@@ -1739,7 +1739,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "owner_info":
+    elif query.data == "owin":
             btn = [[
                     InlineKeyboardButton("✰ 𝖮𝗐𝗇𝖾𝗋 𝖢𝗈𝗇𝗍𝖺𝖼𝗍", url="https://t.me/Tr_LinksZz_Admin_Chat_bot"),
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
@@ -1755,7 +1755,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "urlshort_info":
+    elif query.data == "urlshort":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1770,7 +1770,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "whois_info":
+    elif query.data == "whois":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1825,7 +1825,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-    elif query.data == "sticker_info":
+    elif query.data == "sticker":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra"),
                    ]]
@@ -1840,7 +1840,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "gtrans_info":
+    elif query.data == "gtrans":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1855,7 +1855,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "corona_info":
+    elif query.data == "corona":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
@@ -1870,7 +1870,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
-    elif query.data == "abook_info":
+    elif query.data == "abook":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
              ]]
