@@ -93,7 +93,14 @@ my features Stay here new features coming soon...
 
 ./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
 
-    EXTFTR_TXT = """Help From My Features"""
+    EXTFTR_TXT = """
+ <b>Help From My Features</b>"""
+
+    DEPLOY_TXT : """
+ <b>Tr Movies Network Deployed, This Project Open Source project.</b>"""
+
+OWNER_INFO_TXT : """
+<b>Tr movies Network Official Owner And Movies Developer Delvelped This Project Tr Movies Network Official Owner & Bot Developer Contact 👇 Cilck Developer Button.</b>"""
     
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
@@ -220,10 +227,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """ 
-<b>══════════════════
-🗂 {file_name}
-═════════════════════ 
-𝐉𝐎𝐈𝐍 𝐇𝐄𝐑𝐄 :- @TG_LINKS_CHANNEL1</b>"""
+<b>🗂 {file_name}
+
+❤️‍🔥 ᴊᴏɪɴ ᴍᴀɪɴ ᴄʜᴀɴɴᴇʟ : @Tr_LinksZz ❤️‍🔥</b>"""
     
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
