@@ -1621,6 +1621,7 @@ await query.message.edit_text(
     parse_mode=enums.ParseMode.HTML
 )
 elif query.data == "pings":
+    # Code block for the elif condition
     btn = [
         [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
     ]
@@ -1635,7 +1636,7 @@ elif query.data == "pings":
         reply_markup=reply_markup,
         parse_mode=enums.ParseMode.HTML
     )
-    elif query.data == "purge":
+elif query.data == "purge":
     btn = [
         [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
     ]
