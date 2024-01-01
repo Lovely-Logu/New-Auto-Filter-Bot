@@ -1733,7 +1733,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=(script.DEPLOY_TXT,
+                text=(script.DPY_TXT,
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
         )
@@ -1749,7 +1749,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             )
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
-                text=(script.OWNER_INFO_TXT,
+                text=(script.OWIN_TXT,
                 reply_markup=reply_markup,
                 parse_mode=enums.ParseMode.HTML
             )
