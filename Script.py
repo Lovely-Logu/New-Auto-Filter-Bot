@@ -93,7 +93,8 @@ my features Stay here new features coming soon...
 
 ./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
 
-
+    EXTFTR_TXT = """Help From My Features"""
+    
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
 Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
