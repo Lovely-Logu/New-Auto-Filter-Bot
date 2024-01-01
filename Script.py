@@ -96,12 +96,12 @@ my features Stay here new features coming soon...
     EXTFTR_TXT = """
  <b>Help From My Features</b>"""
 
-    DEPLOY_TXT : """
+    DPY_TXT : """
  <b>Tr Movies Network Deployed, This Project Open Source project.</b>"""
 
-OWNER_INFO_TXT : """
+    OWIN_TXT : """
 <b>Tr movies Network Official Owner And Movies Developer Delvelped This Project Tr Movies Network Official Owner & Bot Developer Contact 👇 Cilck Developer Button.</b>"""
-    
+
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
 Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
@@ -125,6 +125,51 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
+    RULES_TXT = """<b>🔋 𝗚𝗥𝗢𝗨𝗣 𝗥𝗨𝗟𝗘𝗦 🔋 
+ 
+‣ Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ : 
+› ᴀᴠᴀᴛᴀʀ 2009 ✅ 
+› ᴀᴠᴀᴛᴀʀ ᴛᴀᴍɪʟ ✅ 
+› ᴀᴠᴀᴛᴀʀ ᴍᴏᴠɪᴇ ❌ 
+› ᴀᴠᴀᴛᴀʀ ᴛᴀᴍɪʟ ᴅᴜʙʙᴇᴅ..❌ 
+ 
+‣ Sᴇᴀʀᴄʜ Wᴇʙ Sᴇʀɪᴇs Iɴ ᴛʜɪs Fᴏʀᴍᴀᴛᴇ :  
+› ᴀʏᴀʟɪ S01 ✅ 
+› ᴀʏᴀʟɪ S01E01 ✅ 
+› ᴀʏᴀʟɪ S01 ᴛᴀᴍɪʟ ✅ 
+› ᴀʏᴀʟɪ S01 ᴛᴀᴍɪʟ ᴅᴜʙʙ. ❌ 
+› ᴀʏᴀʟɪ sᴇᴀsᴏɴ 1 ❌ 
+› ᴀʏᴀʟɪ ᴡᴇʙ sᴇʀɪᴇs ❌ 
+ 
+‣ ᴅᴏɴ'ᴛ ᴅᴏ ᴀɴʏ sᴇʟғ ᴘʀᴏᴍᴏᴛɪᴏɴ. 
+ 
+‣ ᴅᴏɴ'ᴛ sᴇɴᴅ ᴀɴʏ ᴋɪɴᴅ ᴏғ ᴘʜᴏᴛᴏ, ᴠɪᴅᴇᴏ ᴅᴏᴄᴜᴍᴇɴᴛs, ᴜʀʟ ᴇᴛᴄ.. 
+ 
+‣ ᴅᴏɴ'ᴛ ʀᴇǫᴜᴇsᴛ ᴀɴʏ ᴛʜɪɴɢs ᴏᴛʜᴇʀ ᴛʜᴀɴ ᴍᴏᴠɪᴇ sᴇʀɪᴇs ᴀɴɪᴍᴇs.. 
+ 
+🪄 ɴᴏᴛᴇ :- 𝖠ʟʟ ᴍᴇ𝗌𝗌ᴀɢᴇ𝗌 ᴡɪʟʟ ʙᴇ ᴀᴜᴛᴏ-ᴅᴇʟᴇᴛᴇᴅ ᴀғᴛᴇʀ 5 ᴍɪɴᴜᴛᴇ𝗌 ᴛᴏ ᴀᴠᴏɪᴅ ᴄᴏᴘʏʀɪɢʜᴛ ɪ𝗌𝗌ᴜᴇ𝗌.⚡ 
+ 
+🦋 ᴍʏ ʙᴇsᴛ ғʀɪᴇɴᴅ ☞ <a href=tg://settings>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 🦋 
+ 
+❤️ Powered By : @Tr_LinksZz ❤️</b>""" 
+ 
+    SUPRT_INFO_TXT = """<b> Join Our My Official Channel's & Group's. </b>""" 
+ 
+    CREDITS_TXT = """<b>ᕯ❉   [  Cʀᴇᴅɪᴛꜱ  ]   ❉ᕯ 
+ 
+➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/TG_Botz>Tɢ Bᴏᴛᴢ</a> 
+➳ Tʜᴀɴᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ  : <a href=https://t.me/KUSHALHK>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>  
+➳ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a> 
+➳ Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz>ᴛʀ ᴍᴏᴠɪᴇs™</a> 
+➳ Fᴇᴀᴛᴜʀᴇ Aᴅᴅᴇᴅ Bʏ : <a href=https://t.me/mallufiles><b>𝖬𝖺𝗅𝗅𝗎𝖥𝗂𝗅𝖾𝗌™</b></a> 
+ 
+✦ l ꙰   [ Mᴀɪɴʟʏ Eᴅɪᴛᴛᴇᴅ ]   l ꙰✦ 
+ 
+➳ Mᴀɪɴʟʏ Eᴅɪᴛᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 
+➳ Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ : <a href=https://t.me/mallufiles>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 
+ 
+★  [ <a href=https://t.me/H21TG>Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ</a> ]  ★</b>""" 
+    
     STATUS_TXT = """<b>★ Tᴏᴛᴀʟ Fɪʟᴇs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
 ★ Tᴏᴛᴀʟ Cʜᴀᴛs: <code>{}</code>
@@ -132,11 +177,13 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 ★ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{}</code></b>"""
 
     LOG_TEXT_G = """#NewGroup
+    
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}"""
 
     LOG_TEXT_P = """#NewUser
+    
 ID - <code>{}</code>
 Nᴀᴍᴇ - {}"""
 
