@@ -1613,7 +1613,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup = InlineKeyboardMarkup(btn)
             await query.message.edit_text(
                 text=(script.JSON_TXT,
-                reply_markup=reply_markup,
+                reply_markup':='reply_markup,
                 parse_mode=enums.ParseMode.HTML
          )
     elif query.data == "pings":
