@@ -1620,131 +1620,131 @@ await query.message.edit_text(
     reply_markup=reply_markup,
     parse_mode=enums.ParseMode.HTML
 )
-
-    elif query.data == "pings":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-             ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.PINGS_TXT,
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+elif query.data == "pings":
+    btn = [
+        [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS))
+    )
+    reply_markup = InlineKeyboardMarkup(btn)
+    await query.message.edit_text(
+        text=script.PINGS_TXT,
+        reply_markup=reply_markup,
+        parse_mode=enums.ParseMode.HTML
+    )
     elif query.data == "purge":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-             ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(reply_markup=reply_markup,
-            parse_mode=enums.ParseMode.HTML
-        )random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.PURGE_TXT,
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+    btn = [
+        [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS)),
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
+    await query.message.edit_text(
+        text=script.PURGE_TXT,
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
     elif query.data == "share":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra"),
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.SHARE_TXT,
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
+    btn = [
+        [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS)),
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    await query.message.edit_text(
+        text=script.SHARE_TXT,
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
     elif query.data == "pin":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-             ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.PIN_TXT,
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
-    elif query.data == "gen_pass":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-             ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.GEN_PASS_TXT,
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
-    elif query.data == "song":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.SONG_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
-    elif query.data == "video":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.YTDL_TXT),
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-            )
-    elif query.data == "dpy":
-            btn = [[
-                    InlineKeyboardButton("✫ 𝖣𝖾𝗉𝗅𝗈𝗒", url='https://t.me/Tr_LinksZz'),
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-                  ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.DPY_TXT,
-                reply_markup=reply_markup,
-                parse_mode=enums.ParseMode.HTML
-        )
-    elif query.data == "owin":
+    btn = [
+        [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS)),
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    await query.message.edit_text(
+        text=script.PIN_TXT,
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
+elif query.data == "gen_pass":
+    btn = [
+        [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS)),
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    await query.message.edit_text(
+        text=script.GEN_PASS_TXT,
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
+ elif query.data == "song":
+    btn = [
+        [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS)),
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    await query.message.edit_text(
+        text=script.SONG_TXT,
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
+  elif query.data == "video":
+    btn = [
+        [InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS)),
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    await query.message.edit_text(
+        text=script.YTDL_TXT,
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
+  elif query.data == "dpy":
+    btn = [
+        [
+            InlineKeyboardButton("✫ 𝖣𝖾𝗉𝗅𝗈𝗒", url='https://t.me/Tr_LinksZz'),
+            InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
+        ]
+    ]
+    await client.edit_message_media(
+        query.message.chat.id, 
+        query.message.id, 
+        InputMediaPhoto(random.choice(PICS)),
+        reply_markup=InlineKeyboardMarkup(btn)
+    )
+    await query.message.edit_text(
+        text=script.DPY_TXT,
+        reply_markup=InlineKeyboardMarkup(btn),
+        parse_mode=enums.ParseMode.HTML
+    )
+   elif query.data == "owin":
             btn = [[
                     InlineKeyboardButton("✰ 𝖮𝗐𝗇𝖾𝗋 𝖢𝗈𝗇𝗍𝖺𝖼𝗍", url="https://t.me/Tr_LinksZz_Admin_Chat_bot"),
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
