@@ -1602,20 +1602,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode=enums.ParseMode.HTML
         )
     elif query.data == "json":
-            btn = [[
-                    InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
-             ]]
-            await client.edit_message_media(
-                query.message.chat.id, 
-                query.message.id, 
-                InputMediaPhoto(random.choice(PICS))
-            )
-            reply_markup = InlineKeyboardMarkup(btn)
-            await query.message.edit_text(
-                text=(script.JSON_TXT,
-                reply_markup'=='reply_markup,
-                parse_mode=enums.ParseMode.HTML
-         )
+            btn = [
+    [
+        InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
+    ]
+]
+
+await client.edit_message_media(
+    query.message.chat.id, 
+    query.message.id, 
+    InputMediaPhoto(random.choice(PICS))
+)
+
+reply_markup = InlineKeyboardMarkup(btn)
+await query.message.edit_text(
+    text=script.JSON_TXT,
+    reply_markup=reply_markup,
+    parse_mode=enums.ParseMode.HTML
+)
+
     elif query.data == "pings":
             btn = [[
                     InlineKeyboardButton("⟸ 𝖡𝖺𝖼𝗄", callback_data="extra")
