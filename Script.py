@@ -12,7 +12,7 @@ class script(object):
     ABOUT_TXT = """<b>♕︎ 𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 ♕︎ :
 
 ✯ 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href=https://t.me/Tamizhan_movie_bot>🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a>
-✯ 𝖮𝗐𝗇𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ 𝖬𝗒 𝖮𝗐𝗇𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ 𝖬𝗒 𝖡𝖾𝗌𝗍 𝖥𝗋𝗂𝖾𝗇𝖽 : <a href=tg://settings>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
 ✯ 𝖬𝗒 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ 𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href=https://t.me/Tr_LinksZz>𝖳𝗋 𝖬𝗈𝗏𝗂𝖾𝗌™</a>
@@ -153,16 +153,14 @@ class script(object):
 🗣️ 𝖡𝗈𝗍 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉.
 🤖 𝖡𝗈𝗍 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅.</b>""" 
  
-    CREDITS_TXT = """<b❉ 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 ❉.
- 
+    CREDITS_TXT = """<b>❉ 𝐂𝐫𝐞𝐝𝐢𝐭𝐬 ❉ :
 ➳ Tʜᴀɴᴋ Tᴏ : <a href=https://t.me/TG_Botz>Tɢ Bᴏᴛᴢ</a> 
 ➳ Tʜᴀɴᴋ Tᴏ Dᴇᴠᴇʟᴏᴘᴇʀ  : <a href=https://t.me/KUSHALHK>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>  
 ➳ Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a> 
 ➳ Bᴏᴛ Mᴀɪɴᴛᴀɪɴᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz>ᴛʀ ᴍᴏᴠɪᴇs™</a> 
 ➳ Fᴇᴀᴛᴜʀᴇ Aᴅᴅᴇᴅ Bʏ : <a href=https://t.me/mallufiles><b>𝖬𝖺𝗅𝗅𝗎𝖥𝗂𝗅𝖾𝗌™</b></a> 
  
-✦ 𝐌𝐚𝐢𝐧𝐥𝐲 𝐄𝐝𝐢𝐭𝐭𝐞𝐝 ✦ 
-
+✦ 𝐌𝐚𝐢𝐧𝐥𝐲 𝐄𝐝𝐢𝐭𝐭𝐞𝐝 ✦ :
 ➳ Mᴀɪɴʟʏ Eᴅɪᴛᴇᴅ Bʏ : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 
 ➳ Sᴘᴇᴄɪᴀʟ Tʜᴀɴᴋs Tᴏ : <a href=https://t.me/mallufiles>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a> 
  
@@ -280,9 +278,9 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b> ʜɪ {}
+    CAPTION = """<b>{file_name}
     
-🗂 {file_name}
+🔘 size - {file_size}
 
 ❤️‍🔥 ᴊᴏɪɴ : @Tr_LinksZz ❤️‍🔥</b>"""
     
