@@ -1,30 +1,31 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>, I Cᴀɴ Pʀᴏᴠɪᴅᴇ Mᴏᴠɪᴇ Fᴏʀ Yᴏᴜ Jᴜsᴛ Aᴅᴅ Mᴇ Iɴ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Gʀᴏᴜᴘ
+    START_TXT = ""<b>👋 𝖧𝖾𝗅𝗅𝗈 {},
+😇 𝖬𝗒 𝖭𝖺𝗆𝖾 𝖨𝗌 <a href=https://t.me/{}>{}</a>, 𝖨 𝖢𝖺𝗇 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 & 𝖠𝗇𝗂𝗆𝖾𝗌 & 𝖲𝖾𝗋𝗂𝖾𝗌, 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖬𝖾 𝖨𝗇 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗇𝖽 𝖬𝖺𝗄𝖾 𝖬𝖾 𝖠𝖽𝗆𝗂𝗇 𝖲𝖾𝖾 𝖳𝗁𝖾 𝖬𝖺𝗀𝗂𝖼... ✨
 
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+❤️‍🔥 𝖩𝗈𝗂𝗇 𝖭𝗈𝗐 : <a href=https://t.me/Tr_LinksZz>𝖳𝗋 𝖫𝗂𝗇𝗄𝗌𝖹𝗓 𝖬𝗈𝗏𝗂𝖾𝗌 𝖭𝖾𝗍𝗐𝗈𝗋𝗄 𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅™</a>❤️‍🔥</b>
 
-    HELP_TXT = """<b>Hᴇʏ {}
-Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.
-
-🌿 𝐌𝐚𝐢𝐧𝐭𝐚𝐢𝐧𝐞𝐝 𝐁𝐲 : <a href='https://t.me/KUSHALHK'>𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑</a></b>"""
+    HELP_TXT = """<b>👋 𝖧𝖾𝗒 {}
+𝖧𝖾𝗋𝖾 𝖨𝗌 𝖳𝗁𝖾 𝖧𝖾𝗅𝗉 𝖥𝗈𝗋 𝖬𝗒 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌.</b>"""
  
-    ABOUT_TXT = """<b>⍟───[ MY ᴅᴇᴛᴀɪʟꜱ ]───⍟
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/TG_autofilter_bot>TG_autofilter_bot</a>
- ‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/TG_UPDATES1'>UPDATES</a> 
- ‣ ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a> 
- ‣ ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a> 
- ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
- ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://render.com'>RENDER</a> 
- ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
+    ABOUT_TXT = """<b>♕︎ 𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 ♕︎ :
 
-    SOURCE_TXT = """
-<b>Hᴇʏ, Tʜɪs ɪs ᴀ Oᴘᴇɴ Sᴏᴜʀᴄᴇ Pʀᴏᴊᴇᴄᴛ.
+✯ 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href=https://t.me/Tamizhan_movie_bot>🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a>
+✯ 𝖮𝗐𝗇𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ 𝖬𝗒 𝖡𝖾𝗌𝗍 𝖥𝗋𝗂𝖾𝗇𝖽 : <a href=tg://settings>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
+✯ 𝖬𝗒 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ 𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href=https://t.me/Tr_LinksZz>𝖳𝗋 𝖫𝗂𝗇𝗄𝗌𝖹𝗓 𝖬𝗈𝗏𝗂𝖾𝗌 𝖭𝖾𝗍𝗐𝗈𝗋𝗄 𝖮𝖿𝖿𝗂𝖼𝗂𝖺𝗅™</a>
+✯ 𝖬𝗒 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href=https://docs.pyrogram.org/>𝖯𝗋𝗈𝗀𝗋𝖺𝗆</a>
+✯ 𝖬𝗒 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href=https://www.python.org/download/releases/3.0/>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
+✯ 𝖬𝗒 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href=https://www.mongodb.com/>𝖬𝗈𝗇𝗀𝗈 𝖣𝖻</a>
+✯ 𝖬𝗒 𝖲𝖾𝗋𝗏𝖾𝗋 : <a href=https://render.com/>𝖱𝖾𝗇𝖽𝖾𝗋</a>
+✯ 𝖬𝗒 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵2.7.2 [ 𝖲𝗍𝖺𝖻𝗅𝖾 ]</b>"""
 
-Tʜɪs Bᴏᴛ ʜᴀs Lᴀᴛᴇsᴛ ᴀɴᴅ Aᴅᴠᴀɴᴄᴇᴅ Fᴇᴀᴛᴜʀᴇs⚡️
-
-Fork our repository and give star ⭐- <a href='https://github.com/Kushalhk/TG_BOTZ/tree/stream-feature'>📥 ᴄʟɪᴄᴋ ʜᴇʀᴇ 📥</a></b>
-"""
+    SOURCE_TXT = """<b>𝗡𝗼𝘁𝗲 :
+- 𝖳𝗁𝗂𝗌 𝖨𝗌 𝖠 𝖮𝗉𝖾𝗇 𝖲𝗈𝗎𝗋𝖼𝖾 𝖯𝗋𝗈𝗃𝖾𝖼𝗍.
+- 𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖧𝖺𝗌 𝖫𝖺𝗍𝖾𝗌𝗍 𝖠𝗇𝖽 𝖠𝖽𝗏𝖺𝗇𝖼𝖾𝖽 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌.
+- 𝖲𝗈𝗎𝗋𝖼𝖾 - 𝖢𝗅𝗂𝖼𝗄 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾 𝖡𝗎𝗍𝗍𝗈𝗇.
+𝗗𝗲𝘃𝘀 :
+<a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -45,7 +46,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/TG_UPDATES1)</code>
+<code>[Button Text](buttonurl:https://t.me/Tr_LinksZz)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -71,37 +72,43 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /disconnect  - <code>ᴅɪꜱᴄᴏɴɴᴇᴄᴛ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ</code>
 • /connections - <code>ʟɪꜱᴛ ᴀʟʟ ʏᴏᴜʀ ᴄᴏɴɴᴇᴄᴛɪᴏɴꜱ</code>"""
 
-    EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
-<b>ɴᴏᴛᴇ:</b>
-my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KUSHALHK>OWNER</a></b>
+    EXTRAMOD_TXT = """<b>𝖧𝖾𝗅𝗉 : 𝖤𝗑𝗍𝗋𝖺 𝖬𝗈𝖽𝗎𝗅𝖾𝗌.
+𝖭𝗈𝗍𝖾 :
+𝖬𝗒 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌 𝖲𝗍𝖺𝗒 𝖧𝖾𝗋𝖾 𝖭𝖾𝗐 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌 𝖢𝗈𝗆𝗂𝗇𝗀 𝖲𝗈𝗈𝗇...   
   
- <b>✯ Join here : <a href=https://t.me/TG_UPDATES1>Join my updateds</a></b> 
+ ./id - 𝖦𝖾𝗍 𝖨𝖽 𝖮𝖿 𝖠 𝖲𝗉𝖾𝖼𝗂𝖿𝗂𝖾𝖽 𝖴𝗌𝖾𝗋.
   
- ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
- code> 
+ ./info  - 𝖦𝖾𝗍 𝖨𝗇𝖿𝗈𝗋𝗆𝖺𝗍𝗂𝗈𝗇 𝖠𝖻𝗈𝗎𝗍 𝖠 𝖴𝗌𝖾𝗋.
   
- ./info  - <code>ɢᴇᴛ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴀ ᴜꜱᴇʀ.</code> 
+ ./song - 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖠𝗇𝗒 𝖲𝗈𝗇𝗀 [𝖤𝗑𝖺𝗆𝗉𝗅𝖾 /song vaa vaathi song] 
   
- ./song - Download any song [<code>example /song vaa vaathi song</code>] 
+ ./telegraph - 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝗈𝗋 𝖲𝖾𝗇𝖽 𝖴𝗇𝖽𝖾𝗋 5MB 𝖵𝗂𝖽𝖾𝗈 𝖮𝗋 𝖯𝗁𝗈𝗍𝗈 𝖨 𝖦𝗂𝗏𝖾 𝖳𝖾𝗅𝖾𝗀𝗋𝖺𝗉𝗁 𝖫𝗂𝗇𝗄.
   
- ./telegraph - <code>Telegraph generator sen under 5MB video or photo I give telegraph link</code> 
+ ./tts - 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖴𝗌𝖺𝗀𝖾 𝖳𝖾𝗑𝗍 𝖳𝗈 𝖵𝗈𝗂𝖼𝖾 𝖢𝗈𝗇𝗏𝖾𝗋𝗍𝖾𝗋.
   
- ./tts - <code>This command usage text to voice converter</code> 
-  
- ./video - This command usage any YouTube video download hd [<code>example /video https://youtu.be/Aiue8PMuD-k</code>]
+ ./video - 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖴𝗌𝖺𝗀𝖾 𝖠𝗇𝗒 𝖸𝗈𝗎𝖳𝗎𝖻𝖾 𝖵𝗂𝖽𝖽𝗈 𝖣𝗈𝗐𝗇𝗅𝗈𝖺𝖽 𝖧𝖽 [𝖤𝗑𝖺𝗆𝗉𝗅𝖾 /video https://youtu.be/Aiue8PMuD-k]
 
-./font - This command usage stylish and cool font generator [<code>example /font hi</code>]"""
+./font - 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖴𝗌𝖺𝗀𝖾 𝖲𝗍𝗒𝗅𝗂𝗌𝗁 𝖠𝗇𝖽 𝖢𝗈𝗈𝗅 𝖥𝗈𝗇𝗍 𝖦𝖾𝗇𝖾𝗋𝖺𝗍𝗈𝗋 [𝖤𝗑𝖺𝗆𝗉𝗅𝖾 /font hi]</b>"""
 
     EXTFTR_TXT = """
- <b>Help From My Features</b>"""
+ <b>ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ꜰᴏʀ ᴍʏ ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs. 
 
-    DPY_TXT : """
- <b>Tr Movies Network Deployed, This Project Open Source project.</b>"""
+• /alive - ᴛᴏ ᴄʜᴇᴄᴋ ʏᴏᴜ ᴀʀᴇ ᴀʟɪᴠᴇ.
 
-    OWIN_TXT : """
-<b>Tr movies Network Official Owner And Movies Developer Delvelped This Project Tr Movies Network Official Owner & Bot Developer Contact 👇 Cilck Developer Button.</b>"""
+• /ping - ᴛᴏ ɢᴇᴛ ʏᴏᴜʀ ᴘɪɴɢ.
 
+• /share - ﹛ʏᴏᴜʀ ᴛᴇxᴛ ﹜- ᴇx :- /share hi da.
+
+• /pin - ᴛᴏ ᴩɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ ᴏɴ ʏᴏᴜʀ ᴄʜᴀᴛꜱ.
+
+• /unpin - ᴛᴏ ᴜɴᴩɪɴ ᴛʜᴇ ᴄᴜʀʀᴇᴇɴᴛ ᴩɪɴɴᴇᴅ ᴍᴇꜱꜱᴀɢᴇ.
+
+• /json or /js - ᴛᴏ ʙᴏᴛ ʀᴇᴛᴜʀɴs ᴊsᴏɴ ғᴏʀ ᴀʟʟ ʀᴇᴘʟɪᴇᴅ ᴍᴇssᴀɢᴇs.
+
+🅽🅾🆃🅴🆂 :
+
+➠ ɴᴇᴡ👇 ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ.</b>"""
+    
     ADMIN_TXT = """ʜᴇʟᴘ: Aᴅᴍɪɴ Mᴏᴅs
 <b>ɴᴏᴛᴇ:</b>
 Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
@@ -153,7 +160,13 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
  
 ❤️ Powered By : @Tr_LinksZz ❤️</b>""" 
  
-    SUPRT_INFO_TXT = """<b> Join Our My Official Channel's & Group's. </b>""" 
+    SUPRT_INFO_TXT = """<b>🌟𝖩𝗈𝗂𝗇 𝖮𝗎𝗋 𝖬𝗒 𝖢𝗁𝖺𝗇𝗇𝖾𝗅𝗌 & 𝖦𝗋𝗈𝗎𝗉𝗌 𝖬𝗈𝖽𝗎𝗅𝖾.🌟
+
+🎟️ 𝖬𝗈𝗏𝗂𝖾𝗌 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅.
+🍿 𝖬𝗈𝗏𝗂𝖾𝗌 𝖱𝖾𝗊𝗎𝖾𝗌𝗂𝗇𝗀 𝖦𝗋𝗈𝗎𝗉.
+✨ 𝖠𝗅𝗅 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾𝗌 𝖬𝗈𝗏𝗂𝖾𝗌 & 𝖲𝖾𝗋𝗂𝖾𝗌.
+🗣️ 𝖡𝗈𝗍 𝖲𝗎𝗉𝗉𝗈𝗋𝗍 𝖦𝗋𝗈𝗎𝗉.
+🤖 𝖡𝗈𝗍 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅.</b>""" 
  
     CREDITS_TXT = """<b>ᕯ❉   [  Cʀᴇᴅɪᴛꜱ  ]   ❉ᕯ 
  
