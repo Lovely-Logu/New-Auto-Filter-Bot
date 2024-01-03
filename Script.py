@@ -174,23 +174,20 @@ class script(object):
 ★ 𝖴𝗌𝖾𝖽 𝖲𝗍𝗈𝗋𝖺𝗀𝖾 : <code>{}</code>
 ★ 𝖥𝗋𝖾𝖾 𝖲𝗍𝗈𝗋𝖺𝗀𝖾 : <code>{}</code></b>"""
 
-    LOG_TEXT_G = """<b>#ɴᴇᴡ_ɢʀᴏᴜᴩ
+    LOG_TEXT_G = """#NewGroup
 
-◉ ɢʀᴏᴜᴩ: {a}
-◉ ɢ-ɪᴅ: <code>{b}</code>
-◉ ʟɪɴᴋ: @{c}
-◉ ᴍᴇᴍʙᴇʀꜱ: <code>{d}</code>
-◉ ᴀᴅᴅᴇᴅ ʙʏ: {e}
+➪ Gʀᴏᴜᴘ = {}(<code>{}</code>)
+➪ Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
+➪ Aᴅᴅᴇᴅ Bʏ - {}
 
-◉ ʙʏ: @{f}</b>"""
+𝖡𝗒 : <a href=https://t.me/Tamizhan_movie_bot>🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a></b>"""
 
-    LOG_TEXT_P = """<b>#ɴᴇᴡ_ᴜꜱᴇʀ
-    
-◉ ᴜꜱᴇʀ-ɪᴅ : <code>{}</code>
-◉ ᴀᴄᴄ-ɴᴀᴍᴇ : {}
-◉ ᴜꜱᴇʀɴᴀᴍᴇ : @{}
+    LOG_TEXT_P = """<b>#NewUser
 
-◉ ʙʏ: @{}</b>"""
+➪ ID - <code>{}</code>
+➪ Nᴀᴍᴇ - {}
+
+𝖡𝗒 : <a href=https://t.me/Tamizhan_movie_bot>🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a></b>"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇQᴜᴇꜱᴛ,
