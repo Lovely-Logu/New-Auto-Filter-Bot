@@ -12,12 +12,12 @@ class script(object):
     ABOUT_TXT = """<b>♕︎ 𝖬𝗒 𝖣𝖾𝗍𝖺𝗂𝗅𝗌 ♕︎ :
 
 ✯ 𝖬𝗒 𝖭𝖺𝗆𝖾 : <a href=https://t.me/Tamizhan_movie_bot>🎬 𝐓𝐚𝐦𝐢𝐳𝐡𝐚𝐧 𝐌𝐨𝐯𝐢𝐞 𝐁𝐨𝐭 🍿</a>
-✯ 𝖬𝗒 𝖮𝗐𝗇𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ 𝖮𝗐𝗇𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ 𝖬𝗒 𝖡𝖾𝗌𝗍 𝖥𝗋𝗂𝖾𝗇𝖽 : <a href=tg://settings>𝖳𝗁𝗂𝗌 𝖯𝖾𝗋𝗌𝗈𝗇</a>
-✯ 𝖬𝗒 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
+✯ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href=https://t.me/Tr_LinksZz_Admin_Chat_bot>👑 𝖑𝖔𝖌𝖆𝖓𝖆𝖙𝖍𝖆𝖓 👑</a>
 ✯ 𝖬𝗒 𝖴𝗉𝖽𝖺𝗍𝖾𝗌 𝖢𝗁𝖺𝗇𝗇𝖾𝗅 : <a href=https://t.me/Tr_LinksZz>𝖳𝗋 𝖬𝗈𝗏𝗂𝖾𝗌™</a>
-✯ 𝖬𝗒 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href=https://docs.pyrogram.org/>𝖯𝗋𝗈𝗀𝗋𝖺𝗆</a>
-✯ 𝖬𝗒 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href=https://www.python.org/download/releases/3.0/>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
+✯ 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : <a href=https://docs.pyrogram.org/>𝖯𝗋𝗈𝗀𝗋𝖺𝗆</a>
+✯ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <a href=https://www.python.org/download/releases/3.0/>𝖯𝗒𝗍𝗁𝗈𝗇 3</a>
 ✯ 𝖬𝗒 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : <a href=https://www.mongodb.com/>𝖬𝗈𝗇𝗀𝗈 𝖣𝖻</a>
 ✯ 𝖬𝗒 𝖲𝖾𝗋𝗏𝖾𝗋 : <a href=https://render.com/>𝖱𝖾𝗇𝖽𝖾𝗋</a>
 ✯ 𝖬𝗒 𝖡𝗎𝗂𝗅𝖽 𝖲𝗍𝖺𝗍𝗎𝗌 : 𝖵2.7.2 [ 𝖲𝗍𝖺𝖻𝗅𝖾 ]</b>"""
@@ -95,29 +95,29 @@ class script(object):
 ➠ ɴᴇᴡ👇 ᴇxᴛʀᴀ ғᴇᴀᴛᴜʀᴇs ᴄᴏᴍɪɴɢ sᴏᴏɴ.</b>"""
     
     ADMIN_TXT = """<b>𝖧𝖾𝗅𝗉 : 𝖠𝖽𝗆𝗂𝗇 𝖬𝗈𝖽𝗌.
-𒊹︎︎︎ 𝖭𝗈𝗍𝖾 :
+ 𒊹︎︎︎ 𝖭𝗈𝗍𝖾 :
 𝖳𝗁𝗂𝗌 𝖬𝗈𝖽𝗎𝗅𝖾 𝖮𝗇𝗅𝗒 𝖶𝗈𝗋𝗄𝗌 𝖥𝗈𝗋 𝖬𝗒 𝖠𝖽𝗆𝗂𝗇𝗌.
 𒊹︎︎︎ 𝖢𝗈𝗆𝗆𝖺𝗇𝖽𝗌 𝖠𝗇𝖽 𝖴𝗌𝖺𝗀𝖾 :
-• /logs - ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇᴄᴇɴᴛ ᴇʀʀᴏʀꜱ. 
-• /stats - ᴛᴏ ɢᴇᴛ ꜱᴛᴀᴛᴜꜱ ᴏꜰ ꜰɪʟᴇꜱ ɪɴ ᴅʙ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aɴʏᴏɴᴇ].
-• /delete - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ.
-• /users - ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴜꜱᴇʀꜱ ᴀɴᴅ ɪᴅꜱ.
-• /chats - ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ. 
-• /leave  - ᴛᴏ ʟᴇᴀᴠᴇ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ.
-• /disable  -  ᴛᴏ ᴅɪꜱᴀʙʟᴇ ᴀ ᴄʜᴀᴛ.
-• /ban  - ᴛᴏ ʙᴀɴ ᴀ ᴜꜱᴇʀ.
-• /unban  - ᴛᴏ ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ.
-• /channel - ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ. 
-• /broadcast - ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴀ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀꜱ. 
-• /grp_broadcast - Tᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘs.
-• /gfilter - ᴛᴏ ᴀᴅᴅ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs. 
-• /gfilters - ᴛᴏ ᴠɪᴇᴡ ʟɪsᴛ ᴏғ ᴀʟʟ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs. 
-• /delg - ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ. 
-• /request - Tᴏ sᴇɴᴅ ᴀ Mᴏᴠɪᴇ/Sᴇʀɪᴇs ʀᴇᴏ‌ᴜᴇsᴛ ᴛᴏ ʙᴏᴛ ᴀᴅᴍɪɴs. Oɴʟʏ ᴡᴏʀᴋs ᴏɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aɴʏᴏɴᴇ].
-• /purge - ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ.
-• /delallg - Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.
-• /deletefiles - Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</b>"""
-
+• /logs - </code>ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇᴄᴇɴᴛ ᴇʀʀᴏʀꜱ.</code>
+• /stats - </code>ᴛᴏ ɢᴇᴛ ꜱᴛᴀᴛᴜꜱ ᴏꜰ ꜰɪʟᴇꜱ ɪɴ ᴅʙ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aɴʏᴏɴᴇ].</code>
+• /delete -  <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ.</code>
+• /users - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴜꜱᴇʀꜱ ᴀɴᴅ ɪᴅꜱ.</code>
+• /chats - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ.</code>
+• /leave  - <code>ᴛᴏ ʟᴇᴀᴠᴇ ꜰʀᴏᴍ ᴀ ᴄʜᴀᴛ.</code>
+• /disable  - <code>ᴛᴏ ᴅɪꜱᴀʙʟᴇ ᴀ ᴄʜᴀᴛ.<code>
+• /ban  - <code>ᴛᴏ ʙᴀɴ ᴀ ᴜꜱᴇʀ.</code>
+• /unban  - <code>ᴛᴏ ᴜɴʙᴀɴ ᴀ ᴜꜱᴇʀ.</code>
+• /channel - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴛᴏᴛᴀʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟꜱ.</code>
+• /broadcast - <code>ᴛᴏ ʙʀᴏᴀᴅᴄᴀꜱᴛ ᴀ ᴍᴇꜱꜱᴀɢᴇ ᴛᴏ ᴀʟʟ ᴜꜱᴇʀꜱ.</code>
+• /grp_broadcast - <code>Tᴏ ʙʀᴏᴀᴅᴄᴀsᴛ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ɢʀᴏᴜᴘs.</code>
+• /gfilter - <code>ᴛᴏ ᴀᴅᴅ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs.</code>
+• /gfilters - <code>ᴛᴏ ᴠɪᴇᴡ ʟɪsᴛ ᴏғ ᴀʟʟ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀs.</code>
+• /delg - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ sᴘᴇᴄɪғɪᴄ ɢʟᴏʙᴀʟ ғɪʟᴛᴇʀ.</code>
+• /request - <code>Tᴏ sᴇɴᴅ ᴀ Mᴏᴠɪᴇ/Sᴇʀɪᴇs ʀᴇᴏ‌ᴜᴇsᴛ ᴛᴏ ʙᴏᴛ ᴀᴅᴍɪɴs. Oɴʟʏ ᴡᴏʀᴋs ᴏɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aɴʏᴏɴᴇ].</code>
+• /purge - <code>ᴅᴇʟᴇᴛᴇ ᴀʟʟ ᴍᴇssᴀɢᴇs ꜰʀᴏᴍ ᴛʜᴇ ʀᴇᴘʟɪᴇᴅ ᴛᴏ ᴍᴇssᴀɢᴇ, ᴛᴏ ᴛʜᴇ ᴄᴜʀʀᴇɴᴛ ᴍᴇssᴀɢᴇ.</code>
+• /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
+• /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code></b>"""
+    
     RULES_TXT = """<b>🔋 𝗚𝗥𝗢𝗨𝗣 𝗥𝗨𝗟𝗘𝗦 🔋 
  
 ‣ Sᴇᴀʀᴄʜ Mᴏᴠɪᴇ Wɪᴛʜ Cᴏʀʀᴇᴄᴛ Sᴘᴇʟʟɪɴɢ : 
