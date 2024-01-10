@@ -1555,6 +1555,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('✘ 𝖢𝗅𝗈𝗌𝖾', callback_data='close_data'),
             InlineKeyboardButton('⟸ 𝖡𝖺𝖼𝗄', callback_data='help')
         ]]
+        if query.from_user.id not in ADMINS:
+            return await query.answer("Sᴏʀʀʏ Tʜɪs Mᴇɴᴜ Oɴʟʏ Fᴏʀ Mʏ Aᴅᴍɪɴs ⚒️", show_alert=True)
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
